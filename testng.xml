@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ranga" parallel="none">
+  <test name="Test1">
+    <classes>
+      <class name="DriverFactory.DriverScript"/>
+          </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      
+      <class name="DriverFactory.DataDriven"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+    <classes>
+            <class name="DriverFactory.DataDrivenRegister"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Ranga -->
